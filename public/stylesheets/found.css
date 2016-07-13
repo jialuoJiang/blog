@@ -1,0 +1,30 @@
+.not-found-area {
+    width: 500px;
+    height: 420px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;;
+}
+
+.not-found-page {
+    font-size: 34px;
+    color: #512F00;
+}
+
+.not-found-num {
+
+}
+
+.the-nums {
+    font-size: xx-large;
+    color: #37B25F;
+    height: 40px;
+}
+span{
+    color:#666;
+    font-size: 13px;
+}

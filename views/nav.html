@@ -1,0 +1,26 @@
+<div class="left">
+    <div class="left-brief">
+        <%if(user && user!=""){%>
+        <a href="/modify">
+            <img src="../images/setting.png" class="icon-set">
+        </a>
+        <div class="head-sculpture  head-sculpture-editable">
+            <img alt="头像" src="<%-user.userImage%>" class="user-image">
+            <div class="upload-avatar-wrap">
+                <!-- <p>仅支持jpg、png格式</p>-->
+                <input type="file" name="uploadAvatar" id="upload-avatar"><span>点击这里修改头像</span>
+            </div>
+        </div>
+        <div id="the-name-editable"><%-user.userName%></div>
+        <div class="the-brief"><%-user.userBrief%></div>
+        <%}else{%>
+        <div class="head-sculpture">
+            <img alt="头像" src="../images/toux.jpg">
+        </div>
+        <p class="the-name">公子小白</p>
+        <div class="the-brief">
+            公子小白很懒，他什么也没写~~
+        </div>
+        <%}%>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>公子小白</title>
+    <link href="/stylesheets/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="blog-wrapper" >
+    <% include nav.html%>
+    <div class="right">
+        <div class="right-top">
+            <input type="text" placeholder="输入想要查询的..." id="search-somthing"><a class="search-title">标题</a><a class="search-content">全文</a>
+            <%if(user && user!=""){%>
+            <a class="oper-right" href="/add"><img src="../images/file-add.png"></a>
+            <%}else{%>
+            <a class="oper-right" href="/login"><img src="../images/login.png"></a>
+            <%}%>
+        </div>
+
+        <div class="right-content">
+            <%if(articles && articles!=''){articles.forEach(function(item,index){%>
+            <div class="box">
+                <div class="pic1" name="<%=item._id%>">
+                    <div class="article-title"><a href="/full?articleId=<%=item._id%>"><%-item.articleTitle%></a></div>
+                    <div class="article-content">
+                        <%-item.articleContent%>
+                    </div>
+                    <ul class="article-operations">
+                        <li><a href="/full?articleId=<%=item._id%>"><img src="../images/arrow-down.png"></a></li>
+                        <%if(user && user!=""){%>
+                        <li><a href="/edit?articleId=<%=item._id%>"><img src="../images/file-edit.png"></a></li>
+                        <li><a name="<%=item._id%>" class="delete-blog"><img src="../images/file-delete.png"></a></li>
+                        <%}%>
+                    </ul>
+                </div>
+            </div>
+            <%})}%>
+        </div>
+        <% include paging.html %>
+    </div>
+</div>
+
+<script src="/javascripts/require.js" defer async="true" data-main="/javascripts/main.js"></script>
+</body>
+</html>

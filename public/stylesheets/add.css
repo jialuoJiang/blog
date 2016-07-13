@@ -1,0 +1,54 @@
+/* 编辑、新增  */
+@import url('http://cdn.gbtags.com/twitter-bootstrap/3.2.0/css/bootstrap.css');
+@import url('http://cdn.gbtags.com/font-awesome/4.1.0/css/font-awesome.min.css');
+@import url('http://cdn.gbtags.com/summernote/0.5.2/summernote.css');
+@import "style.css";
+@import "nav.css";
+@import "confirm_win.css";
+#add-edit-article-title {
+    width: 886px;
+    height: 54px;
+    line-height: 56px;
+    font-size: 22px;
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    padding-left: 10px;
+}
+
+.add-tools {
+    height: 54px;
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+}
+
+#add-article-content {
+    width: 920px;
+    height: 400px;
+    margin: 5px;
+    border: none;
+    resize: none;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.add-edit-content {
+    background-color: #fff;
+}
+
+.edit-cancel-publish {
+    text-align: right;
+}
+
+#cancel-the-article, #publish-the-article {
+    width: 120px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 15px;
+}
+
+#publish-the-article {
+    background-color: #80CE99;
+    margin-left:12px;
+}

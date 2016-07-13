@@ -1,0 +1,102 @@
+.left {
+    width: 320px;
+    height: 1000px;
+    float: left;
+    position: fixed;
+    background: url('../images/index-bg.jpg') 100% 100%;
+    z-index: 101;
+}
+
+.left-brief {
+    padding: 50px 30px;
+    text-align: center;
+    color: #ccc;
+}
+
+.left-brief .icon-set{
+    width:22px;
+    height: 22px;
+    float: left;
+    position: absolute;
+    left:30px;
+    cursor: pointer;
+}
+
+.head-sculpture {
+    height: 150px;
+    text-align: center;
+}
+
+.head-sculpture img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.user-image-float {
+    float: left;
+}
+
+.the-name {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.the-brief {
+    font-size: 13px;
+    width: 260px;
+    height: 118px;
+    color: #ccc;
+    line-height: 22px;
+    text-align: center;
+}
+
+ .head-sculpture-editable {
+    cursor: pointer;
+}
+
+#the-name-editable {
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-avatar-wrap {
+    width: 130px;
+    height: 96px;
+    font-size: 14px;
+    display: none;
+    margin-left: 10px;
+    padding-top: 24px;
+}
+
+.upload-avatar-wrap-display {
+    display: inline-block;
+    line-height: 50px;
+}
+
+.upload-avatar-wrap p {
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+}
+
+#upload-avatar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 24px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.upload-avatar-wrap span {
+    height: 24px;
+    display: block;
+    margin-top: -24px;
+    line-height: 24px;
+    text-align: left;
+    font-size: 12px;
+}

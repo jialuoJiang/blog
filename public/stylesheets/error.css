@@ -1,0 +1,17 @@
+@import "style.css";
+@import "nav.css";
+
+
+.error-area{
+    width:886px;
+    height:960px;
+    float: left;
+    background-color: #fff;
+    text-align: center;
+}
+.error-wrap{
+    margin-top:318px;
+}
+.error-wrap span{
+    font-size: 24px;
+}

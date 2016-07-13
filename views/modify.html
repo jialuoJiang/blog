@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公子小白</title>
+    <link href="../stylesheets/modify.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="blog-wrapper">
+    <% include nav.html %>
+    <div class="right">
+        <div class="right-top">
+            <a class="oper-right" href="/"><img src="../images/home.png"></a>
+        </div>
+
+        <div class="right-content">
+            <div>
+                <span class="modify-item">昵称：</span>
+                <input type="text" value="<%-user.userName%>" class="modify-nickname">
+                <span class="modify-must">*</span>
+            </div>
+            <div>
+                <span class="modify-item">邮箱：</span>
+                <input type="email" value="<%-user.userEmail%>" class="modify-email">
+                <span class="modify-must">*</span>
+            </div>
+            <div>
+                <span class="modify-item">密码：</span>
+                <input type="password" value="<%-user.userPwd%>" class="modify-pwd">
+                <span class="modify-must">*</span>
+            </div>
+            <div>
+                <span class="modify-item">个人说明:</span>
+                <textarea class="modify-brief"><%-user.userBrief%></textarea>
+            </div>
+            <div>
+                <span class="modify-item"></span>
+                <input type="button" value="确定" class="modify-confirm">
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="/javascripts/require.js" defer async="true" data-main="/javascripts/modify.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公子小白</title>
+    <link href="/stylesheets/add.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="blog-wrap">
+    <%include nav.html%>
+    <div class="right">
+        <div class="right-top">
+            <a class="oper-right" href="/"><img src="../images/home.png"></a>
+        </div>
+        <div class="right-content">
+            <div class="add-edit-title">
+                <input type="text" value="" placeholder="标题..." id="add-edit-article-title">
+            </div>
+            <div class="add-edit-content">
+                <div id="summernote" class="add-edit-article-content"></div>
+            </div>
+            <p class="edit-cancel-publish">
+                <input id="cancel-the-article" type="button" value="放弃">
+                <input id="publish-the-article" type="button" value="发布">
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<script src="/javascripts/jquery-1.8.3.js"></script>
+<script src="http://cdn.gbtags.com/twitter-bootstrap/3.2.0/js/bootstrap.js"></script>
+<script src="http://cdn.gbtags.com/summernote/0.5.2/summernote.min.js"></script>
+<script src="/javascripts/add.js"></script>
+
+</body>
+</html>

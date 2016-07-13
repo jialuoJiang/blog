@@ -1,0 +1,112 @@
+/* 首页*/
+@import "style.css";
+@import "nav.css";
+@import "paging.css";
+@import "loading.css";
+@import "confirm_win.css";
+
+#search-somthing{
+    width:360px;
+    height:28px;
+    text-indent: 1em;
+    border:1px solid #e5e5e5;
+    float:left;
+    margin-right:20px;
+}
+.search-title  , .search-content{
+    width:74px;
+    height:28px;
+    border:1px solid #e5e5e5;
+    text-align: center;
+    display: inline-block;
+    line-height: 28px;
+    float: left;
+    background-color: #F6F6F6;
+    cursor: pointer;
+    margin-right:20px;
+}
+
+
+.right-content{
+    height: auto;
+    float: left;
+}
+.box{
+    padding-bottom:30px;
+    padding-right:20px;
+    float: left;
+}
+
+.pic1{
+    background-color: #fff;
+    border-radius:3px;
+    width:282px;
+    height:auto;
+    min-height:130px;
+    position: relative;
+    display: inline-block;
+}
+
+.article-operations{
+    width:267px;
+    height:20px;
+    line-height: 20px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 15px;
+    margin-top: 30px;
+
+}
+.article-operations li{
+    display: inline-block;
+}
+.article-title {
+    font-size: 20px;
+    line-height: 26px;
+    padding:15px;
+    word-break: break-all;
+}
+.article-title a{
+    color: #37B25F;
+}
+.article-content{
+    line-height: 22px;
+    padding:15px;
+    word-break: break-all;
+    max-height: 540px;
+    overflow: hidden;
+}
+
+.article-operations li a{
+
+    width:26px;
+    display: inline-block;
+    text-align: center;
+}
+.article-operations li a img{
+    width:22px;
+    height:22px;
+}
+.article-content img{
+  max-width:252px !important;
+    overflow: hidden;
+}
+.article-content pre span{
+    max-width: 252px;
+    display: inline-block;
+    word-break: break-all;
+    overflow: hidden;
+}
+.nothing-found-wrap{
+    width:886px;
+    height:960px;
+    background-color: #fff;
+    text-align: center;
+}
+.nothing-found{
+    width:886px;
+    margin-top:280px;
+    float: left;
+    font-size: 24px;
+}

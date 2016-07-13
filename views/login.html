@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>公子小白</title>
+    <link href="/stylesheets/login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="return-to-index"><a href="/">返回首页</a></div>
+    <div class="success-prompt" style="display: none"></div>
+    <div class="wrap">
+
+        <ul class="wrap-top">
+            <li class="selected">登录</li>
+            <li>注册</li>
+        </ul>
+        <form class="login-register" name="login-register" action="/logreg?" method="post">
+            <p>
+                <input id="username" type="text">
+                <span class="prompt">*</span>
+                <span class="nameprompt"></span>
+            </p>
+            <p>
+                <input id="userpwd" type="password">
+                <span class="prompt">*</span>
+                <span class="pwdprompt"></span>
+            </p>
+            <p class="useremail" style="display: none">
+                <input id="useremail" type="email">
+                <span class="prompt">*</span>
+                <span class="emailprompt"></span>
+            </p>
+            <p class="wjmm"><a href="/retrieve">忘记密码？</a></p>
+            <p>
+                <input id="confirm" type="button" value="登录">
+            </p>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="/javascripts/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="/javascripts/login.js"></script>
+</body>
+</html>
+

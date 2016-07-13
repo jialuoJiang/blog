@@ -1,0 +1,52 @@
+@import "style.css";
+@import "nav.css";
+@import "main.css";
+
+.modify-item{
+    width:120px;
+    height:36px;
+    display: inline-block;
+    float: left;
+    text-align: right;
+    line-height: 36px;
+    padding-right:15px;
+}
+
+.modify-must{
+    width:40px;
+    height:36px;
+    display: inline-block;
+    float: left;
+    line-height: 36px;
+    color:red;
+    text-align: center;
+}
+
+.modify-nickname ,.modify-pwd , .modify-brief , .modify-email{
+    float:left;
+    margin-bottom: 15px;
+}
+
+input{
+    width:400px;
+    height:36px;
+    text-indent: 1em;
+    opacity: 0.6;
+}
+textarea{
+    width:400px;
+    height:200px;
+    text-indent: 1em;
+    line-height: 22px;
+    resize: none;
+    border:1px solid #dcdcdc;
+    background-color: #fafafa;
+}
+.modify-confirm{
+    border:none;
+    background-color: #37B25F;
+    color:#fff;
+    opacity: 0.6;
+    font-size: 16px;
+    cursor: pointer;
+}

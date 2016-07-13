@@ -1,0 +1,19 @@
+.pre-next-wrap{
+    width:100%;
+    padding-top: 10px;
+    float:left;
+}
+.pre-next-wrap .pre{
+    float:left;
+}
+.pre-next-wrap .pre img , .pre-next-wrap .next img{
+    width:30px;
+    height:22px;
+}
+
+.pre-next-wrap .next{
+    float:right;
+}
+.disabled-pre , .disabled-next{
+    cursor: not-allowed;
+}

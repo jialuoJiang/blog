@@ -1,0 +1,15 @@
+<!-- 页码 -->
+
+<div class="page-wrapper">
+    <div class="page-wrap">
+        <span class="pre-page <%if(curPage==1){%>disabled<%}%> ">上一页</span>
+        <%for(var i=1;i<=pageNums;i++){%>
+            <%if(i==curPage){%>
+            <span class="selected-page page-number"><%-i-%></span>
+            <%}else{%>
+            <span class="page-number"><%-i-%></span>
+             <%}%>
+        <%}%>
+          <span class="next-page <%if(curPage==pageNums){%>disabled<%}%> ">下一页</span>
+    </div>
+</div>

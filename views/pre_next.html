@@ -1,0 +1,19 @@
+<!-- 查看上一篇和下一篇文章 -->
+
+<%
+  var pre=article.pre;
+  var next=article.next;
+%>
+
+<div class="pre-next-wrap">
+    <% if(pre==null) {%>
+        <a class="pre disabled-pre"><img src="../images/arrow-left.png"></a>
+    <%}else{%>
+        <a class="pre"  href="/full?articleId=<%-pre%>"><img src="../images/arrow-left.png"></a>
+    <%}%>
+    <%if(next==null){%>
+        <a class="next disabled-next"><img src="../images/arrow-right.png"></a>
+    <%}else{%>
+        <a class="next" href="/full?articleId=<%-next%>"><img src="../images/arrow-right.png"></a>
+    <%}%>
+</div>

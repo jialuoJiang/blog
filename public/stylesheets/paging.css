@@ -1,0 +1,32 @@
+.page-wrapper {
+    float: left;
+    width: 906px;
+    height: 56px;
+    margin-top: 16px;
+}
+
+.page-wrap {
+    height: 24px;
+    margin-top: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.page-wrap span {
+    padding: 2px 10px;
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.page-wrap .selected-page {
+    background-color: #fff;
+}
+
+span.disabled {
+    cursor: not-allowed;
+}
+
+.the-total-pages {
+    display: none;
+}

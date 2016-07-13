@@ -1,0 +1,127 @@
+@import "style.css";
+body{
+    background-color: #f4f4f4;
+}
+.wrapper{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.return-to-index{
+    width:480px;
+    position: absolute;
+    top:100px;
+    left:0;
+    right:0;
+    margin:auto;
+    text-align: right;
+}
+.wrap{
+    width:485px;
+    position: absolute;
+    float: left;
+    left:0;
+    right:0;
+    top:120px;
+    margin: auto;
+    background-color: #fff;
+    opacity: 0.6;
+}
+.success-prompt{
+    height:40px;
+    width:200px;
+    position: absolute;
+    top:120px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+    background-color: #BDDC59;
+}
+.wrap-top{
+    height:56px;
+    line-height: 56px;
+    background-color: #111111;
+    opacity: 0.6;
+    color: #fff;
+    font-size: 16px;
+}
+.wrap-top li{
+    display: inline-block;
+    width:100px;
+    text-align: center;
+    cursor: pointer;
+}
+.wrap-top li.selected{
+    background-color: #fff;
+    color: #000;
+}
+
+.login-register{
+    padding:30px;
+    position: relative;
+}
+.login-register p{
+    margin-bottom:15px;
+}
+.login-register p.wjmm{
+    padding-right:12px;
+    text-align: right;
+}
+.login-register p input{
+    height:36px;
+    width:400px;
+    text-indent: 1em;
+}
+.login-register p input#confirm{
+    border:none;
+    background-color: #37B25F;
+    outline: 2px solid #37B25F;
+    color: #fff;
+    font-size:16px;
+}
+
+.login-register  span.prompt{
+    padding-left:4px;
+    color:#ff5247;
+}
+span.nameprompt , span.emailprompt , span.pwdprompt{
+    position: absolute;
+    height: 24px;
+    width: 85px;
+    padding: 3px 5px;
+    line-height: 24px;
+    background-color: #37B25F;
+    color: #fff;
+    margin-left: 42px;
+    text-align: center;
+    display: none ;
+    right:-80px;
+}
+span.nameprompt{
+    top:35px;
+}
+span.pwdprompt{
+    top:90px;
+}
+span.emailprompt{
+    top:145px;
+}
+#useremail, #username ,#userpwd{
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: 10px 9px;
+    border: 1px solid #e5e5e5;
+}
+#username{
+    background-image: url("../images/user.png");
+}
+#userpwd{
+    background-image: url("../images/key.png");
+}
+#useremail{
+    background-image: url("../images/email.png");
+}

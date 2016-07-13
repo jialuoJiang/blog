@@ -1,0 +1,39 @@
+/*  忘记密码页*/
+@import "style.css";
+@import "nav.css";
+
+.retrieve-wrapper {
+    opacity: 0.6;
+
+}
+
+.retrieve-input {
+    height: 36px;
+    width: 400px;
+    float: left;
+    text-indent: 1em;
+    margin-right: 12px;
+    border: 1px solid #e5e5e5;
+}
+
+.retrieve-wrapper p {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    width: 700px;
+    margin: auto;
+}
+
+.retrieve-button {
+    height: 38px;
+    width: 120px;
+    border: none;
+    background-color: #37B25F;
+    color: #fff;
+    font-size: 16px;
+}
+.mail-sent{
+color:#666;
+    display: none;
+}
